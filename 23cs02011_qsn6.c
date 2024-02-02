@@ -20,7 +20,7 @@ int main() {
       printf("%d * %d = %d", first, second, first * second);
       break;
     case '/':
-      printf("%d / %d = %f", first, second, first / second);
+      printf("%d / %d = %f", first, second,(float)(first) /(float)(second));
       break;
     
     default:
